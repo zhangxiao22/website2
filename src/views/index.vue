@@ -396,6 +396,7 @@ $blue: #3c62e9;
       border: 5px solid #fff;
       transition: all 0.5s;
       overflow: hidden;
+      background: #fff;
       &:hover {
         transform: translateY(-5px);
         border: 5px solid #f5f2fc;
@@ -432,17 +433,19 @@ $blue: #3c62e9;
         bottom: -20px;
         right: -20px;
         transition: 0.5s;
-        z-index: -1;
+        // z-index: -1;
       }
       .t1 {
         font-size: 30px;
         margin-top: 40px;
+        position: relative;
       }
       .t2 {
         margin-top: 20px;
         line-height: 1.8;
         color: #6b6b84;
         font-size: 16px;
+        position: relative;
       }
       .iconfont {
         color: $blue;
