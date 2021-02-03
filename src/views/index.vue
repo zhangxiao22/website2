@@ -489,6 +489,7 @@ $blue: #3c62e9;
     }
   }
   .c {
+    padding-bottom: 50px;
     .box {
       height: 500px;
       width: 1200px;
